@@ -1,0 +1,28 @@
+{
+  "name": "quantum-relay",
+  "version": "1.0.0",
+  "description": "Quantum Relay Node for signing and relaying STI token transactions on Polygon via QuickNode.",
+  "main": "relay.js",
+  "type": "module",
+  "scripts": {
+    "start": "node relay.js",
+    "test": "echo \"No tests defined yet\" && exit 0"
+  },
+  "keywords": [
+    "streshi",
+    "sti",
+    "polygon",
+    "relay",
+    "node",
+    "quantum",
+    "blockchain"
+  ],
+  "author": "Streshi Group Inc.",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "ethers": "^6.15.0",
+    "express": "^5.1.0"
+  }
+}
+
